@@ -16,7 +16,7 @@
         android:id="@+id/textRomance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/biru"
+        android:background="@color/mawar"
         android:padding="8dp"
         android:text="@string/dilan"
         android:textColor="@color/white"

@@ -19,7 +19,7 @@
         android:text="@string/avengers"
         android:textSize="16sp"
         android:textColor="@color/white"
-        android:background="@color/merah"
+        android:background="@color/krisbow"
         android:padding="8dp"/>
 
     <ScrollView

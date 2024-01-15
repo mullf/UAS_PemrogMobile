@@ -16,10 +16,10 @@
         android:id="@+id/textKomedi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/cream"
+        android:background="@color/hijau"
         android:padding="8dp"
         android:text="@string/cts"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
     <ScrollView
