@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-class chawnimamovieActivity extends AppCompatActivity {
+class ChawnimaMovie extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Fibonancci extends AppCompatActivity {
+public class Fibonacci extends AppCompatActivity {
     private Context context;
     private int mCount = 0;
     private TextView mShowCount;
@@ -16,7 +16,7 @@ public class Fibonancci extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.activity_fibonancci);
+        setContentView(R.layout.activity_fibonacci);
         mShowCount = (TextView) findViewById(R.id.show_count);
     }
 

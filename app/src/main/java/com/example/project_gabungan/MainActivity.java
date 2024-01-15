@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private CardView buttonAlarm;
     private CardView buttonMaps;
     private CardView buttonKalender;
-    private CardView buttonchawnimamovie;
+    private CardView buttonChawnimaMovie;
     private CardView buttontrailermovie;
 
     @Override
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         buttonAlarm = findViewById(R.id.SetAlarm);
         buttonMaps = findViewById(R.id.maps);
         buttonKalender = findViewById(R.id.kalender);
-        buttonchawnimamovie = findViewById(R.id.chawnima_movie);
+        buttonChawnimaMovie = findViewById(R.id.chawnima_movie);
         buttontrailermovie = findViewById(R.id.trailer_movie);
 
         setToolbar();
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         buttonFibo.setOnClickListener(v -> {
-            Intent intent = new Intent(this, Fibonancci.class);
+            Intent intent = new Intent(this, Fibonacci.class);
             startActivity(intent);
         });
 
@@ -94,8 +94,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        buttonchawnimamovie.setOnClickListener(view -> {
-            Intent intent = new Intent(this, chawnimamovieActivity.class);
+        buttonChawnimaMovie.setOnClickListener(view -> {
+            Intent intent = new Intent(this, ChawnimaMovie.class);
             startActivity(intent);
         });
         
